@@ -1,33 +1,41 @@
 [
     {
       "id": 1,
-      "title": "Product A",
-      "image": "product_a.jpg"
+      "title": "Nike",
+      "image": "https://i.ibb.co/tbb8Gh5/download.jpg",
+      "bgColor": "#e42923"
     },
     {
       "id": 2,
-      "title": "Service X",
-      "image": "service_x.png"
+      "title": "Adidas",
+      "image": "https://i.ibb.co/54ySt9p/adidas-logo-leaves-wallpaper-preview.jpg",
+      "bgColor": "#72832d"
     },
     {
       "id": 3,
-      "title": "Event 1",
-      "image": "event_1.jpg"
+      "title": "Gucci",
+      "image": "https://i.ibb.co/pXmKwcW/Gucci-Band-Museo-Logo-SVG-Gucci-Band-Logo-PNG-Gucci-Logo-vector-File-PNG-SVG-CDR-AI-PDF-EPS-DXF-Form.jpg",
+      "bgColor": "#f7ead4",
+      "textColor": "#1f170c"
     },
     {
       "id": 4,
-      "title": "Item B",
-      "image": "item_b.png"
+      "title": "Zara",
+      "image": "https://i.ibb.co/JqqDrLc/Zara-logo-photography-idea-drak-theme-photo-2022-fashion.jpg",
+      "bgColor": "#413d3a"
     },
     {
       "id": 5,
-      "title": "Project Z",
-      "image": "project_z.jpg"
+      "title": "H&M",
+      "image": "https://i.ibb.co/tq4FFdX/Brown-H-M-app-icon.jpg",
+      "bgColor": "#795a3d"
     },
     {
       "id": 6,
-      "title": "Location Y",
-      "image": "location_y.jpg"
+      "title": "Levi's",
+      "image": "https://i.ibb.co/M75LBDK/Levis-Graphic-Logo-Crew-Neck-T-Shirt-White.jpg",
+      "bgColor": "#fafafa",
+      "textColor": "#1f170c"
     }
   ]
   
