@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "title": "Product A",
+      "image": "product_a.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Service X",
+      "image": "service_x.png"
+    },
+    {
+      "id": 3,
+      "title": "Event 1",
+      "image": "event_1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Item B",
+      "image": "item_b.png"
+    },
+    {
+      "id": 5,
+      "title": "Project Z",
+      "image": "project_z.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Location Y",
+      "image": "location_y.jpg"
+    }
+  ]
+  
