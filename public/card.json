@@ -3,18 +3,27 @@
       "id": 1,
       "title": "Nike",
       "image": "https://i.ibb.co/tbb8Gh5/download.jpg",
+      "sliderImg1":"https://i.ibb.co/c6Pzq4N/35463b103211209-5f8d57c277188.jpg",
+      "sliderImg2":"https://i.ibb.co/JkYHf2L/Nike-advertising.jpg",
+      "sliderImg3":"https://i.ibb.co/xDQhHxz/57135c485ebf90e793a57055b157d6f8.jpg",
       "bgColor": "#e42923"
     },
     {
       "id": 2,
       "title": "Adidas",
       "image": "https://i.ibb.co/54ySt9p/adidas-logo-leaves-wallpaper-preview.jpg",
+      "sliderImg1":"https://i.ibb.co/M8hWTcw/branding-story-of-adidas.jpg",
+      "sliderImg2":"https://i.ibb.co/pLR84t1/alliornothing.jpg",
+      "sliderImg3":"https://i.ibb.co/0qFY2Pg/b67f04598f7c62df6fbe7400b11.jpg",
       "bgColor": "#72832d"
     },
     {
       "id": 3,
       "title": "Gucci",
       "image": "https://i.ibb.co/pXmKwcW/Gucci-Band-Museo-Logo-SVG-Gucci-Band-Logo-PNG-Gucci-Logo-vector-File-PNG-SVG-CDR-AI-PDF-EPS-DXF-Form.jpg",
+      "sliderImg1":"https://i.ibb.co/88Z1TjW/GU759-GUILTY-2022-YEAR-1-LAYOUTS-DPS-RGB-300dpi-01.webp",
+      "sliderImg2":"https://i.ibb.co/BfvyqTC/5d016af0250000a013deda84.webp",
+      "sliderImg3":"https://i.ibb.co/9VKQBMB/Gucci-Cruise-Ad-Campaign-2011.jpg",
       "bgColor": "#f7ead4",
       "textColor": "#1f170c"
     },
@@ -22,18 +31,27 @@
       "id": 4,
       "title": "Zara",
       "image": "https://i.ibb.co/JqqDrLc/Zara-logo-photography-idea-drak-theme-photo-2022-fashion.jpg",
+      "sliderImg1":"https://i.ibb.co/Syw74n4/zara-stats.webp",
+      "sliderImg2":"https://i.ibb.co/fXRMSzx/Marketing-Mix-of-ZARA-Banner.jpg",
+      "sliderImg3":"https://i.ibb.co/bRYbRyJ/7b484205a04e983b280966c290470a9f.jpg",
       "bgColor": "#413d3a"
     },
     {
       "id": 5,
       "title": "H&M",
       "image": "https://i.ibb.co/tq4FFdX/Brown-H-M-app-icon.jpg",
+      "sliderImg1":"https://i.ibb.co/g36VsV5/635671886716048957-H-M-PR-Billboard-01.webp",
+      "sliderImg2":"https://i.ibb.co/mBBFmy6/635671120316559073-H-M-PR-Billboard-03.webp",
+      "sliderImg3":"https://i.ibb.co/nbHrjzw/12.jpg",
       "bgColor": "#795a3d"
     },
     {
       "id": 6,
       "title": "Levi's",
       "image": "https://i.ibb.co/M75LBDK/Levis-Graphic-Logo-Crew-Neck-T-Shirt-White.jpg",
+      "sliderImg1":"https://i.ibb.co/F6R0TjX/30adco02-650.webp",
+      "sliderImg2":"https://i.ibb.co/4NHYr0h/print090630-levis-5of7095902-0.jpg",
+      "sliderImg3":"https://i.ibb.co/wRBD49w/levis-deepika-png.jpg",
       "bgColor": "#fafafa",
       "textColor": "#1f170c"
     }

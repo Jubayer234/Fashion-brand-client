@@ -2,6 +2,8 @@ import React from 'react'
 import Banner from '../../Banner/Banner'
 import BrandCards from '../../BrandCards/BrandCards'
 import { useLoaderData } from 'react-router-dom'
+import Footer from '../../Footer/Footer'
+import WeDo from '../../WeDo/WeDo'
 
 const Home = () => {
 
@@ -9,12 +11,14 @@ const Home = () => {
 
   return (
     <div>
-      <div className='bg-[#F7F7F7] '> 
+      <div className='bg-gradient-to-r from-[#d8ead0] to-[#7bbdd3]'>
         <Banner></Banner>
+        <BrandCards cards={cards}></BrandCards>
+        <WeDo></WeDo>
+      </div>
+      <Footer ></Footer>
     </div>
-    <BrandCards cards={cards}></BrandCards>
-    </div>
-  
+
   )
 }
 

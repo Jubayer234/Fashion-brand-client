@@ -1,27 +1,45 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useContext } from 'react'
+import { Link, NavLink } from 'react-router-dom'
 import NavLogo from '../../assets/Group 7009.svg'
+import { AuthContext } from '../AuthProvider/AuthProvider';
 
 const Navbar = () => {
 
+
+    const {user,logOut} = useContext(AuthContext);
+    const handleLogOut = () =>{
+        logOut()
+        .then()
+        .catch()
+    }
+
     const navLinks = <div className='space-x-2'>
-        <p className='btn bg-gradient-to-r from-blue-400 to bg-blue-600 text-white'>
+        <p className='btn bg-[#62acc7] text-white'>
         <NavLink className={({ isActive }) =>
         isActive ? " underline text-white" : ""} to="/">Home</NavLink>
         </p>
-        <p className='btn bg-gradient-to-r from-blue-400 to bg-blue-600 text-white'>
+        <p className='btn bg-[#62acc7] text-white'>
         <NavLink className={({ isActive }) =>
         isActive ? " underline" : ""} to="/addProducts">Add Product</NavLink>
         </p>
-        <p className='btn bg-gradient-to-r from-blue-400 to bg-blue-600 text-white'>
+        <p className='btn bg-[#62acc7] text-white'>
         <NavLink className={({ isActive }) =>
-        isActive ? " underline" : ""} to="M">My Cart</NavLink>
+        isActive ? " underline" : ""} to="/myCart">My Cart</NavLink>
         </p>
+        <p className='btn bg-[#62acc7] text-white'>
+        <NavLink className={({ isActive }) =>
+        isActive ? " underline" : ""} to="/register">Register</NavLink>
+        </p>
+        <p className='btn bg-[#62acc7] text-white'>
+        <NavLink className={({ isActive }) =>
+        isActive ? " underline" : ""} to="/login">Login</NavLink>
+        </p>
+        
     </div>
 
 
     return (
-        <div className='max-w-7xl mx-auto pt-6  border-b'>
+        <div className='max-w-7xl mx-auto  pt-6 pb-5 border-b'>
             <div className="navbar grid md:flex">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -35,13 +53,21 @@ const Navbar = () => {
                     <img className='w-8 lg:w-10 ' src={NavLogo} />
                     <p className="btn btn-ghost normal-case text-lg md:text-4xl text-[#3734A9]">Fashion and Apparel</p>
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-center hidden lg:flex mr-20">
                     <ul className="menu menu-horizontal px-1">
                         {navLinks}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <a className="btn">Button</a>
+                <div className="ml-32">
+                {
+                        user ? 
+                        <button onClick={handleLogOut} className='btn  ml-3 bg-[#62acc7] font-semibold text-white'>LogOut </button>
+                        :
+                        <Link to={'/login'}>
+                        <button className='btn ml-3 border bg-[#3734A9] font-semibold text-white'>Login</button>
+                    </Link>
+
+                    }
                 </div>
             </div>
         </div>
