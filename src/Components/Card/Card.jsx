@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Card = ({ card }) => {
-  const { id, title, image, bgColor, textColor } = card || {};
+  const { id, title, image } = card || {};
   return (
     <div>
       <Link to={`/details/${id}`}>

@@ -7,7 +7,7 @@ import measure from '../../assets/measure.svg'
 const WeDo = () => {
   return (
     <div className='max-w-7xl mx-auto bg-white grid lg:grid-cols-2 p-10 rounded-xl gap-10'>
-        <div className='md:flex items-center gap-5 border-b pb-4'>
+        <div className='md:flex items-center gap-5 border-b pb-8'>
             <img className='bg-[#FFF3E8] p-7 md:p-8 rounded-full' src={cart} />
             <div>
             <h4 className='text-2xl font-bold'>Shop for latest wears</h4>

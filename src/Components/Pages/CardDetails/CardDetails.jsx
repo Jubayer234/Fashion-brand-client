@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardDetails = ({card}) => {
 
-    const {id,title,image,sliderImg1,sliderImg2,sliderImg3,bgColor} = card||{}
+    const {id,title,sliderImg1,sliderImg2,sliderImg3,productImg1,productImg2,productImg3,productImg4,productName1,productName2,productName3,productName4,text,type1,type2,type3,type4} = card||{}
 
   return (
     <div className='items-center max-w-7xl mx-auto pt-10'>
@@ -30,13 +30,88 @@ const CardDetails = ({card}) => {
     </div>
   </div> 
 </div>
-        <div style={{backgroundColor:bgColor}} className="card w-1/2  mx-auto shadow-xl">
-                <figure className="w px-2 py-2 ">
-                    <img src={image} alt="" className="rounded-xl w-full " />
+        <div className="card grid grid-cols-2 gap-5 text-white  mx-auto shadow-xl">
+               <div className=" px-2 bg-black py-2 rounded-3xl">
+               <figure >
+                    <img src={productImg1} alt="" className="rounded-xl  w-full " />
                 </figure>
-                <div className="card-body items-center text-center text-white">
-                    <h2 className="card-title">{title}</h2>
+                <div className="card-body items-center text-center text-2xl font-semibold">
+                    <h2>{productName1}</h2>
+                    <p>{text}</p>
+                    <p>Brand : {title} </p>
+                    <p>Price : $350</p>
+                    <p>Type : {type1}</p>
+                    <div className='flex justify-around gap-5'>
+                      <button className='btn'>
+                        Detail
+                        </button>
+                        <button className='btn'>
+                        Update
+                        </button>
+                    </div>
                 </div>
+               </div>
+               <div className=" px-2 bg-black py-2 rounded-3xl">
+               <figure>
+                    <img src={productImg2} className="rounded-xl w-full " />
+                </figure>
+                <div className="card-body text-2xl font-semibold items-center text-center">
+                    <h2>{productName2}</h2>
+                    <p>{text}</p>
+                    <p>Brand : {title} </p>
+                    <p>Price : $100</p>
+                    <p>Type : {type2}</p>
+                    <div className='flex justify-around gap-5'>
+                      <button className='btn'>
+                        Detail
+                        </button>
+                        <button className='btn'>
+                        Update
+                        </button>
+                    </div>
+                </div>
+               </div>
+               <div className=" px-2 bg-black py-2 rounded-3xl">
+               <figure >
+                    <img src={productImg3} alt="" className="rounded-xl w-full " />
+                </figure>
+                <div className="card-body text-2xl font-semibold items-center text-center">
+                    <h2>{productName3}</h2>
+                    <p>{text}</p>
+                    <p>Brand : {title} </p>
+                    <p>Price : $140</p>
+                    <p>Type : {type3}</p>
+                    <div className='flex justify-around gap-5'>
+                      <button className='btn'>
+                        Detail
+                        </button>
+                        <button className='btn'>
+                        Update
+                        </button>
+                    </div>
+                </div>
+               </div>
+               <div className=" px-2 bg-black py-2 rounded-3xl">
+               <figure>
+                    <img src={productImg4} alt="" className="rounded-xl w-full " />
+                </figure>
+                <div className="card-body text-2xl font-semibold items-center text-center">
+                    <h2>{productName4}</h2>
+                    <p>{text}</p>
+                    <p>Brand : {title} </p>
+                    <p>Price : $220</p>
+                    <p>Type : {type4}</p>
+                    <div className='flex justify-around gap-5'>
+                      <button className='btn'>
+                        Detail
+                        </button>
+                        <button className='btn'>
+                        Update
+                        </button>
+                    </div>
+                </div>
+                
+               </div>
             </div>
     </div>
   )

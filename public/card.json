@@ -6,6 +6,18 @@
       "sliderImg1":"https://i.ibb.co/c6Pzq4N/35463b103211209-5f8d57c277188.jpg",
       "sliderImg2":"https://i.ibb.co/JkYHf2L/Nike-advertising.jpg",
       "sliderImg3":"https://i.ibb.co/xDQhHxz/57135c485ebf90e793a57055b157d6f8.jpg",
+      "productImg1":"https://i.ibb.co/6HVmK27/Nike-Air-Zoom-Crossover.webp",
+      "productImg2":"https://i.ibb.co/qBgPjYR/Nike-City-Connect-men-s-T-Shirt.webp",
+      "productImg3":"https://i.ibb.co/1s0TGBK/Men-s-Fleece-Pants.webp",
+      "productImg4":"https://i.ibb.co/3rRC9xN/Nike-SB-Bruin-High.jpg",
+      "productName1":"Nike Air Zoom Crossover",
+      "productName2":"Nike City Connect men's-T-Shirt",
+      "productName3":"Men's Fleece Pants",
+      "productName4":"Nike SB Bruin High",
+      "type1": "Shoe",
+      "type2": "T-Shirt",
+      "type3": "Pant",
+      "type4": "Shoe",
       "bgColor": "#e42923"
     },
     {
@@ -15,7 +27,19 @@
       "sliderImg1":"https://i.ibb.co/M8hWTcw/branding-story-of-adidas.jpg",
       "sliderImg2":"https://i.ibb.co/pLR84t1/alliornothing.jpg",
       "sliderImg3":"https://i.ibb.co/0qFY2Pg/b67f04598f7c62df6fbe7400b11.jpg",
-      "bgColor": "#72832d"
+      "bgColor": "#72832d",
+      "productImg1":"https://i.ibb.co/VDZt3wf/1120be66828702b317860ac5e3bdeecb.jpg",
+      "productImg2":"https://i.ibb.co/4TD5QYK/88ff06bb0fc446d5a2e921e6f04b907e.webp",
+      "productImg3":"https://i.ibb.co/0qv3C43/18952751-42175698-1000.webp",
+      "productImg4":"https://i.ibb.co/TBvr6KZ/8889442-1-black.webp",
+      "productName1":"Adidas Air Zoom Crossover",
+      "productName2":"Men's Trouser",
+      "productName3":"Balenciaga Hoodie",
+      "productName4":"Joggers",
+      "type1": "Shoe",
+      "type2": "Pant",
+      "type3": "Pant",
+      "type4": "Hoodie"
     },
     {
       "id": 3,
@@ -25,7 +49,19 @@
       "sliderImg2":"https://i.ibb.co/BfvyqTC/5d016af0250000a013deda84.webp",
       "sliderImg3":"https://i.ibb.co/9VKQBMB/Gucci-Cruise-Ad-Campaign-2011.jpg",
       "bgColor": "#f7ead4",
-      "textColor": "#1f170c"
+      "textColor": "#1f170c",
+      "productImg1":"https://i.ibb.co/C1yff2c/S4940f3f98ee84bb8ac3690adffaf7deaz.jpg",
+      "productImg2":"https://i.ibb.co/0KYrZ52/7afa3ee3-min.jpg",
+      "productImg3":"https://i.ibb.co/djWqcxS/ya142305-gucci-800x800.jpg",
+      "productImg4":"https://i.ibb.co/d0PtsDP/s-l1200.webp",
+      "productName1":"Gucci Print Bag",
+      "productName2":"Gucci sweat-Shirt",
+      "productName3":"Stainless steel watch",
+      "productName4":"Gucci Flora",
+      "type1": "Bag",
+      "type2": "T-Shirt",
+      "type3": "Watch",
+      "type4": "Perfume"
     },
     {
       "id": 4,
@@ -34,7 +70,20 @@
       "sliderImg1":"https://i.ibb.co/Syw74n4/zara-stats.webp",
       "sliderImg2":"https://i.ibb.co/fXRMSzx/Marketing-Mix-of-ZARA-Banner.jpg",
       "sliderImg3":"https://i.ibb.co/bRYbRyJ/7b484205a04e983b280966c290470a9f.jpg",
-      "bgColor": "#413d3a"
+      "bgColor": "#413d3a",
+      "productImg1":"https://i.ibb.co/qdm33T7/zara-seoul-perfume-brand-new-1670425708-3afe485c-progressive.jpg",
+      "productImg2":"https://i.ibb.co/1G8k9Gj/1457359490-zara-ungendered.jpg",
+      "productImg3":"https://i.ibb.co/ss52J3q/ZARA-MAN-TASSEL-MOCASSINS-1699-1.jpg",
+      "productImg4":"https://i.ibb.co/7KR1H4s/best-zara-clothes-fall-2019.webp",
+      "productName1":"Zara Seoul Perfume",
+      "productName2":"Couple Hoodie",
+      "productName3":"Black Loafer",
+      "productName4":"Winter Jacket",
+
+      "type1": "Perfume",
+      "type2": "Hoodie",
+      "type3": "Shoe",
+      "type4": "Jacket"
     },
     {
       "id": 5,
@@ -43,7 +92,19 @@
       "sliderImg1":"https://i.ibb.co/g36VsV5/635671886716048957-H-M-PR-Billboard-01.webp",
       "sliderImg2":"https://i.ibb.co/mBBFmy6/635671120316559073-H-M-PR-Billboard-03.webp",
       "sliderImg3":"https://i.ibb.co/nbHrjzw/12.jpg",
-      "bgColor": "#795a3d"
+      "bgColor": "#795a3d",
+      "productImg1":"https://i.ibb.co/pZ0J8zT/hmgoepprod.webp",
+      "productImg2":"https://i.ibb.co/FszvKqL/hmgoepprod.jpg",
+      "productImg3":"https://i.ibb.co/GdgkM4f/hmgoepprod-1.jpg",
+      "productImg4":"https://i.ibb.co/CskLfQJ/hmgoepprod-2.jpg",
+      "productName1":"Over Size Shirt",
+      "productName2":"Sports Bag",
+      "productName3":"Men's Trouser",
+      "productName4":"Shoulder Bag Pack",
+      "type1": "Shirt",
+      "type2": "Bag",
+      "type3": "Pant",
+      "type4": "Bag"
     },
     {
       "id": 6,
@@ -53,7 +114,8 @@
       "sliderImg2":"https://i.ibb.co/4NHYr0h/print090630-levis-5of7095902-0.jpg",
       "sliderImg3":"https://i.ibb.co/wRBD49w/levis-deepika-png.jpg",
       "bgColor": "#fafafa",
-      "textColor": "#1f170c"
+      "textColor": "#1f170c",
+      "text": "Sorry! No Products Available Right now"
     }
   ]
   
