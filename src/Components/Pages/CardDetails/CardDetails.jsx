@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const CardDetails = ({card}) => {
 
-    const {id,title,sliderImg1,sliderImg2,sliderImg3,productImg1,productImg2,productImg3,productImg4,productName1,productName2,productName3,productName4,text,type1,type2,type3,type4} = card||{}
+    const {id,title,sliderImg1,sliderImg2,sliderImg3,productImg1,productImg2,productImg3,productImg4,productName1,productName2,productName3,productName4,text,type1,type2,type3,type4} = card||{};
+
 
   return (
     <div className='items-center max-w-7xl mx-auto pt-10'>
@@ -30,7 +32,7 @@ const CardDetails = ({card}) => {
     </div>
   </div> 
 </div>
-        <div className="card grid grid-cols-2 gap-5 text-white  mx-auto shadow-xl">
+        <div className="card grid md:grid-cols-2 gap-5 text-white  mx-auto shadow-xl">
                <div className=" px-2 bg-black py-2 rounded-3xl">
                <figure >
                     <img src={productImg1} alt="" className="rounded-xl  w-full " />
@@ -42,9 +44,9 @@ const CardDetails = ({card}) => {
                     <p>Price : $350</p>
                     <p>Type : {type1}</p>
                     <div className='flex justify-around gap-5'>
-                      <button className='btn'>
-                        Detail
-                        </button>
+                      <Link to={`/productDetail/${id}`}><button className='btn'>
+                        Details
+                        </button></Link>
                         <button className='btn'>
                         Update
                         </button>
@@ -62,9 +64,9 @@ const CardDetails = ({card}) => {
                     <p>Price : $100</p>
                     <p>Type : {type2}</p>
                     <div className='flex justify-around gap-5'>
-                      <button className='btn'>
-                        Detail
-                        </button>
+                    <Link to={`/productDetail2/${id}`} ><button className='btn'>
+                        Details
+                        </button></Link>
                         <button className='btn'>
                         Update
                         </button>
@@ -82,9 +84,9 @@ const CardDetails = ({card}) => {
                     <p>Price : $140</p>
                     <p>Type : {type3}</p>
                     <div className='flex justify-around gap-5'>
-                      <button className='btn'>
-                        Detail
-                        </button>
+                    <Link to={`/productDetail/${id}`}><button className='btn'>
+                        Details
+                        </button></Link>
                         <button className='btn'>
                         Update
                         </button>
@@ -102,9 +104,9 @@ const CardDetails = ({card}) => {
                     <p>Price : $220</p>
                     <p>Type : {type4}</p>
                     <div className='flex justify-around gap-5'>
-                      <button className='btn'>
-                        Detail
-                        </button>
+                    <Link to={`/productDetail/${id}`}><button className='btn'>
+                        Details
+                        </button></Link>
                         <button className='btn'>
                         Update
                         </button>

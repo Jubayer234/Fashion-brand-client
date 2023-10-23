@@ -6,6 +6,8 @@ import ErrorPage from "../Components/Pages/ErrorPage/ErrorPage";
 import Login from "../Components/Pages/Login/Login";
 import Register from "../Components/Pages/Register/Register";
 import PrivateRoute from "../Components/Pages/PrivateRoute/PrivateRoute";
+import ProductDetails from "../Components/Pages/ProductDetails/ProductDetails";
+import ProductsDetails2 from "../Components/Pages/ProductDetails2/ProductsDetails2";
 
 const routes = createBrowserRouter([
     {
@@ -37,6 +39,17 @@ const routes = createBrowserRouter([
             },
             {
                 path: '/addProducts'
+            },
+            {
+                path: '/productDetail/:id',
+                element: <ProductDetails></ProductDetails>,
+                loader: () => fetch('/card.json')
+            },
+            {
+                path: '/productDetail2/:id',
+                element: <ProductsDetails2></ProductsDetails2>,
+                loader: () => fetch('/card.json')
+
             }
         ]
     }
