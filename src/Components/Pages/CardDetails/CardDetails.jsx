@@ -84,7 +84,7 @@ const CardDetails = ({card}) => {
                     <p>Price : $140</p>
                     <p>Type : {type3}</p>
                     <div className='flex justify-around gap-5'>
-                    <Link to={`/productDetail/${id}`}><button className='btn'>
+                    <Link to={`/productDetail3/${id}`}><button className='btn'>
                         Details
                         </button></Link>
                         <button className='btn'>

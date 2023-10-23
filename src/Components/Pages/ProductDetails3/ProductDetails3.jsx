@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { useLoaderData, useParams } from 'react-router-dom';
-import ProductsRoute2 from './ProductsRoute2';
+import ProductRoute3 from './ProductRoute3.jsx/ProductRoute3';
 
-const ProductsDetails2 = () => {
-    const [card,setCard] = useState({});
+const ProductDetails3 = () => {
+  const [card,setCard] = useState({});
     const {id} = useParams();
     const cards = useLoaderData()
     useEffect(() => {
@@ -12,8 +12,8 @@ const ProductsDetails2 = () => {
     },[id,cards])
 
   return (
-    <div className=' bg-gradient-to-r min-h-screen flex items-center from-gray-300 to-[#7bbdd3]'><ProductsRoute2 key={id} card={card}></ProductsRoute2> </div>
+    <div className=' bg-gradient-to-r from-gray-300 to-[#7bbdd3] min-h-screen flex items-center'><ProductRoute3 key={id} card={card}></ProductRoute3> </div>
   )
 }
 
-export default ProductsDetails2
+export default ProductDetails3
