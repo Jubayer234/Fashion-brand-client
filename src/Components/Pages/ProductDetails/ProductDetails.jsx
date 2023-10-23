@@ -12,7 +12,7 @@ const ProductDetails = () => {
     },[id,cards])
 
   return (
-    <div className=' bg-gradient-to-r from-gray-300 to-[#7bbdd3] min-h-screen flex items-center'><ProductDetailsRoute key={id} card={card}></ProductDetailsRoute> </div>
+    <div className=' bg-gradient-to-r from-gray-300 to-[#7bbdd3] min-h-screen pt-10 md:pt-32'><ProductDetailsRoute key={id} card={card}></ProductDetailsRoute> </div>
   )
 }
 

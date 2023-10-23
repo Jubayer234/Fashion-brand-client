@@ -9,6 +9,7 @@ import PrivateRoute from "../Components/Pages/PrivateRoute/PrivateRoute";
 import ProductDetails from "../Components/Pages/ProductDetails/ProductDetails";
 import ProductsDetails2 from "../Components/Pages/ProductDetails2/ProductsDetails2";
 import ProductDetails3 from "../Components/Pages/ProductDetails3/ProductDetails3";
+import ProductDetail4 from "../Components/Pages/ProductDetail4/ProductDetail4";
 
 const routes = createBrowserRouter([
     {
@@ -55,6 +56,11 @@ const routes = createBrowserRouter([
             {
                 path: '/productDetail3/:id',
                 element: <ProductDetails3></ProductDetails3>,
+                loader: () => fetch('/card.json')
+            },
+            {
+                path: '/productDetail4/:id',
+                element: <ProductDetail4></ProductDetail4>,
                 loader: () => fetch('/card.json')
             }
         ]

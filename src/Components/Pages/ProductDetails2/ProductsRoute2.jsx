@@ -14,7 +14,7 @@ const ProductsRoute2 = ({card}) => {
                     <p>Type : {type2}</p>
                     <p>price:$100</p>
                     <div className="card-actions">
-                        <button className="btn btn-primary">Buy Now</button>
+                        <button className="btn bg-red-600 text-white">Add To Cart</button>
                     </div>
                 </div>
             </div>
