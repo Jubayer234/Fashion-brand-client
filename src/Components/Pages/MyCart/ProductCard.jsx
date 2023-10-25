@@ -18,7 +18,7 @@ const ProductCard = ({ products }) => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`http://localhost:5000/products/${_id}`, {
+                fetch(`https://my-brand-shop-server-i44qqvcda-jubayer234.vercel.app/products/${_id}`, {
                     method: 'delete'
                 })
                     .then(res => res.json())

@@ -19,7 +19,7 @@ const handleAddProducts = event => {
     console.log(newProduct);
 
     // send data
-    fetch('http://localhost:5000/products',{
+    fetch('https://my-brand-shop-server-i44qqvcda-jubayer234.vercel.app/products',{
       method: 'POST',
       headers: {
         'content-type' : 'application/json'
