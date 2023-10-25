@@ -10,6 +10,7 @@ import ProductDetails from "../Components/Pages/ProductDetails/ProductDetails";
 import ProductsDetails2 from "../Components/Pages/ProductDetails2/ProductsDetails2";
 import ProductDetails3 from "../Components/Pages/ProductDetails3/ProductDetails3";
 import ProductDetail4 from "../Components/Pages/ProductDetail4/ProductDetail4";
+import AddProduct from "../Components/Pages/AddProduct/AddProduct";
 
 const routes = createBrowserRouter([
     {
@@ -40,7 +41,8 @@ const routes = createBrowserRouter([
                 path: '/myCart'
             },
             {
-                path: '/addProducts'
+                path: '/addProducts',
+                element: <AddProduct></AddProduct>
             },
             {
                 path: '/productDetail/:id',
