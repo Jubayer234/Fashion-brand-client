@@ -11,13 +11,14 @@ const Register = () => {
     const navigate = useNavigate();
 
 
-    const handleRegister = (e) => {
+    const handleRegister = event => {
         
-        e.preventDefault()
-        const displayName = e.target.displayName.value;
-        const Photo = e.target.Photo;
-        const email = e.target.email.value;
-        const password = e.target.password.value;
+        event.preventDefault()
+        const form = event.target;
+        const displayName = form.displayName.value;
+        const photo = form.photo.value;
+        const email = form.email.value;
+        const password = form.password.value;
 
         if(password.length < 6){
             toast.error("Your password is less then 6 character")
@@ -30,7 +31,7 @@ const Register = () => {
             toast.error("Password doesn't have a special character")
             return;
         }else{
-            createUser(email,password,displayName,Photo)
+            createUser(email,password,displayName,photo)
             .then(result => {
                 Swal.fire('successfully registered!')
                 console.log(result.user)

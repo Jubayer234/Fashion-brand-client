@@ -11,6 +11,10 @@ import ProductsDetails2 from "../Components/Pages/ProductDetails2/ProductsDetail
 import ProductDetails3 from "../Components/Pages/ProductDetails3/ProductDetails3";
 import ProductDetail4 from "../Components/Pages/ProductDetail4/ProductDetail4";
 import AddProduct from "../Components/Pages/AddProduct/AddProduct";
+import UpdateProducts from "../Components/Pages/UpdateProducts/UpdateProducts";
+import MyCart from "../Components/Pages/MyCart/MyCart";
+import PrivateProduct from "../Components/Pages/PrivateProduct/PrivateProduct";
+import PrivateAddProduct from "../Components/Pages/PrivateAddProduct/PrivateAddProduct";
 
 const routes = createBrowserRouter([
     {
@@ -38,11 +42,14 @@ const routes = createBrowserRouter([
                 element: <Login></Login>
             },
             {
-                path: '/myCart'
+                path: '/myCart',
+                element: <PrivateProduct><MyCart></MyCart></PrivateProduct>,
+                loader: () => fetch('http://localhost:5000/products')
             },
             {
                 path: '/addProducts',
-                element: <AddProduct></AddProduct>
+                element: <PrivateAddProduct><AddProduct></AddProduct></PrivateAddProduct>
+
             },
             {
                 path: '/productDetail/:id',
@@ -64,6 +71,10 @@ const routes = createBrowserRouter([
                 path: '/productDetail4/:id',
                 element: <ProductDetail4></ProductDetail4>,
                 loader: () => fetch('/card.json')
+            },
+            {
+                path: '/updateProducts',
+                element: <UpdateProducts></UpdateProducts>
             }
         ]
     }

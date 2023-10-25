@@ -47,9 +47,10 @@ const CardDetails = ({card}) => {
                       <Link to={`/productDetail/${id}`}><button className='btn'>
                         Details
                         </button></Link>
+                        <Link to={'/updateProducts'}>
                         <button className='btn'>
                         Update
-                        </button>
+                        </button></Link>
                     </div>
                 </div>
                </div>
@@ -67,9 +68,10 @@ const CardDetails = ({card}) => {
                     <Link to={`/productDetail2/${id}`} ><button className='btn'>
                         Details
                         </button></Link>
+                        <Link to={'/updateProducts'}>
                         <button className='btn'>
                         Update
-                        </button>
+                        </button></Link>
                     </div>
                 </div>
                </div>
@@ -87,9 +89,10 @@ const CardDetails = ({card}) => {
                     <Link to={`/productDetail3/${id}`}><button className='btn'>
                         Details
                         </button></Link>
+                        <Link to={'/updateProducts'}>
                         <button className='btn'>
                         Update
-                        </button>
+                        </button></Link>
                     </div>
                 </div>
                </div>
@@ -107,9 +110,10 @@ const CardDetails = ({card}) => {
                     <Link to={`/productDetail4/${id}`}><button className='btn'>
                         Details
                         </button></Link>
+                        <Link to={'/updateProducts'}>
                         <button className='btn'>
                         Update
-                        </button>
+                        </button></Link>
                     </div>
                 </div>
                 
